@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p_1"
+    tools:context="VotacionCantantesActivity">
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center"
+        android:text="Candidatas "
+        android:textColor="@color/white"
+        android:textSize="45dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center|right"
+        android:layout_marginTop="-50dp"
+
+        app:srcCompat="@drawable/ic_micro"
+        app:tint="@color/white" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgviewdenise"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/denisse"
+            android:layout_marginRight="30dp"
+            app:civ_border_width="2dp"
+            app:strokeWidth="5dp" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgviewmontlafert"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/mon_laferte_gif"
+            android:layout_marginLeft="30dp"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textDescripcionMontlafert"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/historiaDeMonTlafert"
+            android:textColor="@color/white"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="7dp"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/textDescripcionDenisse"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/historiaDeDanisseRosenthal"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bttnVotoMontlafert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/ColorAPP"
+            android:text="Mon Laferte"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:id="@+id/bttnVotoDenisse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="@color/ColorAPP"
+            android:text="denisse r."
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textVotoMontlafert"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textVotoDenisse"
+            android:layout_width="191dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/bttnAtrasVotacionCantantes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/ColorAPP"
+            android:text="Atrás"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/logo1" />
+
+
+</LinearLayout>

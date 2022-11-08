@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">D Magazine Chile</string>
+    //para que agregar los relaciones con button.
+    <string name="recuperarPassM">Se ha enviado exitosamente a su correo electronico la recuperacion de su contraseña</string>
+    <string name="recuperarPassT">Recuperacion de su contraseña</string>
+    <string name="okey">ACEPTAR</string>
+    <string name="Descripcion_de_votar_gato">Lily luego de una revolcada por la tierra decide esconderse debajo de una silla vieja de mimbre
+    </string>
+    <string name="titleError">Error</string>
+    <string name="MensajeError">Primero escriba su dirección de correo electrónico válida</string>
+    <string name="MensajeErrorCorreo">Se produjo un error, la dirección de correo electrónico esta mal formateada</string>
+    <string name="VotaciomTitulo">"D'MagazineChile"</string>
+    <string name="VotacionMensaje">Gracias Por Votar</string>
+    <string name="registroMensaje">Gracias Por Registrarte Con nosotros</string>
+    <string name="VotacionBttn">ACEPTAR</string>
+    <string name="MensajeQuienesSomos">Revista D’Magazine es una revista de actualidad.
+        Orientada a las generaciones, que gusta de leer en papel couche. La puede encontrar en todos los quioscos del país.</string>
+    <string name="MensajeQuienesSomos2">La puede encontrar en todos los quioscos del país.</string>
+    <string name="historiaDeDanisseRosenthal">Denise Sofía Rosenthal Schalchli (Santiago, 8 de noviembre de 1990) es una cantante, compositora y actriz chilena.</string>
+    <string name="historiaDeMonTlafert">Norma Monserrat Bustamante Laferte (Viña del Mar, Chile, 2 de mayo de 1983), conocida por su nombre artístico Mon Laferte, es una cantautora, música y compositora chilena.</string>
+    <string name="RContraseña">Ingrese su correo electronico para recuperar su contraseña</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab1_">Tab1_Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>

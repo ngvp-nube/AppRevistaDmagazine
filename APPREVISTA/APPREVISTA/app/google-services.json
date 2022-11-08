@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "64146412717",
+    "firebase_url": "https://betaappdmagazine-46c95-default-rtdb.firebaseio.com",
+    "project_id": "betaappdmagazine-46c95",
+    "storage_bucket": "betaappdmagazine-46c95.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64146412717:android:1eb908198b8f53ac3fe224",
+        "android_client_info": {
+          "package_name": "com.dmagazine.mydmagazinechile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64146412717-ggvnchaa85kakg0flfjd4uqaudgthdto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuKZ5RqGvnRE3wBuLlTuZLS9Yup6bOKHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64146412717-ggvnchaa85kakg0flfjd4uqaudgthdto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64146412717:android:66bfd48e11d1a8823fe224",
+        "android_client_info": {
+          "package_name": "com.example.mymagazinechile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64146412717-bvpkoaco4r6cd1vs8pss3i754dffberh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mymagazinechile",
+            "certificate_hash": "d4305b31e319934e0fe628d844f8130cc16cf388"
+          }
+        },
+        {
+          "client_id": "64146412717-ggvnchaa85kakg0flfjd4uqaudgthdto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuKZ5RqGvnRE3wBuLlTuZLS9Yup6bOKHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64146412717-ggvnchaa85kakg0flfjd4uqaudgthdto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
